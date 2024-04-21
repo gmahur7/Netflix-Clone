@@ -1,0 +1,553 @@
+#netflix {
+    background-color: grey;
+    /* height: 4120px; */
+}
+
+#first {
+    background-image: url('./Component/Images/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    height: 95vh;
+    width:98.87vw;
+    z-index: 1;
+}
+
+#first,#second,#thid,#fourth,#fifth,#sixth,#seven {
+    margin: 10px 0px;
+}
+
+#first {
+    margin-top: 0px;
+}
+
+#black {
+    height: 95vh;
+    width:98.87vw;
+    background-color: black;
+    position: absolute;
+    opacity: .8;
+    z-index: 2;
+}
+#first-content {
+    position: relative;
+
+    z-index: 3;
+    height: 95vh;
+    width:100vw; 
+}
+#header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 180px; 
+    padding: 20px 0px;
+}
+
+#logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229,9,20);
+    fill: currentColor;
+}
+
+#right {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right div {
+    margin: 0px 10px;
+}
+
+#lang {
+    display: flex;
+    border: 0.1px solid white;
+    border-radius: 4px;
+    color: white;
+    align-items: center;
+    height: 30px;
+    padding: 0px 8px;
+    background-color: rgba(0,0,0,.5);
+}
+
+#lang select {
+    border:none;
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+#right button {
+    border: 1px solid E50914;
+    border-radius: 4px;
+    background-color: #E50914;
+    height: 35px;
+    width: 75px;
+}
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#first-body {
+    color: white;
+    text-align: center;
+    margin: 27vh 0px;
+}
+
+#first-body div {
+    margin: 25px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#first-body h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#first-body h3 {
+    font-size: 22px;
+}
+#first-body h4 {
+    font-size: 20px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+#search div {
+   margin: 0px 10px;
+}
+
+#email input { padding: 0px 20px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: rgba(0,0,0,.5);
+    height: 50px;
+    width: 300px;
+    color: white;
+     }
+#email input:focus { border: 2px solid grey;
+          outline: none; 
+        }
+#email { position: relative;
+   margin-left: 20px;
+   color: grey;
+   }
+#email label { position: absolute;
+         top: 16px;
+         left: 20px;
+         transition: .5s;
+         }
+#email input:focus + label {  top: 5px;
+                    left: 20px;
+                    background-color: transparent;
+                    padding: 0px 4px;
+                    color:red;
+                    transition: .5s;
+                    color: white;
+                    font-size: 13px;
+                }
+input:not(:placeholder-shown) + label { top: -10px;
+                    left: 10px;
+                    background-color: transparent;
+                    padding: 0px 4px;
+                    transition: .5s;
+                    color: red;
+} 
+
+#search button {
+    height: 52px;
+    width: 200px;
+    background-color: #E50914;
+    color: white;
+    border-radius: 4px;
+    font-size: 25px;
+    border: 1px solid #E50914;
+}
+
+#second {
+    /* position: absolute; */
+    background-color: black;
+    color: white;
+    /* top:910px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 180px;
+}
+
+#second img {
+    width:500;
+    height: 380;
+}
+#second h1 {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+#second h3 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 0px;
+}
+
+#third {
+    /* position: absolute;
+    top:1261px; */
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 180px;
+}
+
+#third img {
+    width:550;
+    height: 400;
+}
+
+#third h1 {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+#third h3 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 0px;
+}
+
+#third {
+    position: relative;
+}
+#str-abs {
+    position: absolute;
+    left:300;
+    top:380;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 10px 10px;
+    background-color: black;
+    
+}
+#str-abs img {
+   height:80px;
+   width:57px;
+}
+#str-abs h1 {
+   font-size: 15px;
+   font-family: 'Ubuntu', sans-serif;
+   margin-bottom:4px;
+}
+#str-abs h3 {
+   font-size: 14px;
+   font-family: 'Ubuntu', sans-serif;
+   color:rgb(103, 103, 227);
+   margin-top:0px;
+}
+#str-abs div {
+    margin:0px 5px;
+}
+
+#download {
+    padding-left: 45px;
+    padding-right: 15px;
+}
+
+#fourth {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px;
+}
+
+#fourth div {
+    margin: 0px 20px;
+}
+
+#fourth img {
+    width:500;
+    height: 380;
+}
+#fourth h1 {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+#fourth h3 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 0px;
+}
+
+#fifth {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 180px;
+}
+
+#fifth img {
+    width:520px;
+    height: 390px;
+}
+
+#fifth h1 {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+#fifth h3 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 0px;
+}
+
+#fifth div {
+    margin: 0px 20px;
+}
+
+#sixth {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 180px 80px;
+    text-align: center;
+}
+
+#all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#sixth h1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    background-color: black;
+}
+#sixth h3 {
+    font-size: 60px;
+}
+
+#s1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 24px;
+    font-size:25px;
+    background-color: rgb(45,45,45);
+    position: relative;
+}
+
+#s1 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 0px;
+    width: 1122px;
+}
+
+#s1 {
+    margin: 4px 0px;
+}
+
+#s1 p {
+    background-color: rgb(45,45,45);
+    padding: 24px;
+    text-align: left;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.margin h4 {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+#seven {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 0px 80px 180px;
+    text-align: left;
+}
+#seven-mid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#seven-mid div {
+    display: flex;
+    flex-direction: row; 
+    margin: 5px;
+    margin-right: 150px;
+    font-size:13px;
+    text-decoration: underline;
+    color: rgb(147, 147, 147);
+    font-weight: 500;
+}
+
+.seven-margin {
+    margin:10px;
+    color: rgb(147, 147, 147);
+}
+
+#seven-mid div div {
+    display: block-inline;
+    width:140px;
+}
+
+#signup {
+        background-image: url('./Component/Images/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+        height: 140vh;
+        width:100vw;
+}
+
+#sign-black {
+    height: 140vh;
+    width:100vw; 
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+    z-index: 2;
+}
+.white {
+    color: white;
+}
+
+#sign-body {
+    align-items: center;
+    background-color: rgba(0,0,0,.65);
+    border-radius: 10px;
+    width:320px;
+    padding: 50px 60px;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    left: 550px;
+}
+#sign-body div {
+    margin: 20px 0px;
+}
+#sign-heading {
+    font-size: 30px;
+}
+#sign-input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+#sign-input div {
+    margin: 8px 0px;
+}
+
+#sign-input input {
+    color: white;
+    width: 315px;
+    height:45px;
+    border-radius: 6px;
+    background-color: rgb(51,51,51);
+}
+#sign-input input::placeholder {
+    color: rgb(140,140,140);
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+#sign-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(140,140,140);
+    font-size: 14px;
+}
+#sign-btn div {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5px 0px;
+}
+
+#sign-btn button {
+    width: 320px;
+    height:45px;
+    border-radius: 6px;
+    background-color: #E50914;
+    font-size: 17px;
+    color: white;
+}
+
+#signup-now {
+    color: rgb(140,140,140);
+    padding: 60px 0px;
+}
+
+.sign-learnmore {
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.sign-learnmore span{
+    color: rgb(1,113,198);
+}
+
+#sign-footer {
+    position: absolute;
+    top: 110vh;
+    background-color: rgba(0,0,0,.65);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0px 40px 180px;
+    text-align: left;
+}
+
+.error {
+    color:red;
+    font-size: 10px;
+    /* background-color: white; */
+}
+#pass-show {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 238px;
+    height: 41px;
+    width: 82px;
+    border-radius: 5px;
+
+}
+#inp-pass {
+    position: relative;
+}
