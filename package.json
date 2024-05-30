@@ -2,11 +2,10 @@
   "name": "netflix",
   "version": "1.0.0",
   "description": "Netflix Project By Gaurav Singh",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel index.html",
-    "build":"parcel build"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "author": "Gaurav Mahur",
   "license": "ISC",
