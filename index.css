@@ -1,26 +1,22 @@
 #netflix {
     background-color: grey;
-    /* height: 4120px; */
+    width: 100vw;
 }
 
 #first {
     background-image: url('./Component/Images/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg');
     height: 95vh;
-    width:98.87vw;
+    width:100%;
     z-index: 1;
 }
 
 #first,#second,#thid,#fourth,#fifth,#sixth,#seven {
-    margin: 10px 0px;
-}
-
-#first {
-    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 #black {
     height: 95vh;
-    width:98.87vw;
+    width:100vw;
     background-color: black;
     position: absolute;
     opacity: .8;
@@ -28,15 +24,15 @@
 }
 #first-content {
     position: relative;
-
     z-index: 3;
     height: 95vh;
-    width:100vw; 
+    width:100%; 
 }
+
 #header-content {
     display: flex;
     justify-content: space-between;
-    margin: 0px 180px; 
+    margin: 0px 15vw; 
     padding: 20px 0px;
 }
 
@@ -166,6 +162,8 @@ input:not(:placeholder-shown) + label { top: -10px;
     font-size: 25px;
     border: 1px solid #E50914;
 }
+
+/* second start */
 
 #second {
     /* position: absolute; */
@@ -398,6 +396,7 @@ input:not(:placeholder-shown) + label { top: -10px;
     align-items: flex-start;
     padding: 60px 0px 80px 180px;
     text-align: left;
+    margin-bottom: 0;
 }
 #seven-mid {
     display: flex;

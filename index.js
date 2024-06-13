@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { BrowserRouter as Router,Routes, Route, NavLink } from 'react-router-dom'
 import ReactDOM from 'react-dom/client'
-import './index.css'
 import './reset.css'
+import './index.css'
+import './responsive.css'
 import Home from './Component/Home'
 import Signup from './Component/Signup'
 
 function Netflix() {
+  document.title="Netflix India - Watch TV Shows"
   return (
     <Router>
       <Routes>

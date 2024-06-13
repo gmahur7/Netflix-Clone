@@ -9,14 +9,14 @@ function Third() {
                 <img src={str} />
             </div>
             <div>
-                <h1>Download your shows to watch offline</h1>
-                <h3>Save your favourites easily and always have something to watch.</h3>
+                <h1 id="third-h1">Download your shows to watch offline</h1>
+                <h3 id="third-h3">Save your favourites easily and always have something to watch.</h3>
             </div>
             <div id='str-abs'>
                 <div>
                     <img src={stranger} />
                 </div>
-                <div>
+                <div id="text">
                     <h1>Stranger Things</h1>
                     <h3>Downloading...</h3>
                 </div>

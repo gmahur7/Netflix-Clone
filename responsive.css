@@ -1,0 +1,406 @@
+@media screen and (max-width:992px) {
+    #netflix {
+        width: 100vw;
+        background-color: red;
+    }
+
+    #first,
+    #second,
+    #third,
+    #fourth,
+    #fifth,
+    #sixth,
+    #seven {
+        margin-bottom: 5px;
+    }
+
+    #first,
+    #black {
+        width: 100%;
+        height: 80vh;
+    }
+
+    #header-content {
+        margin: 0px 5vw;
+        padding: 30px 0;
+    }
+
+    #logo {
+        width: 6.25rem;
+    }
+
+    #first-body {
+        margin: 17.5vh 0 12vh 0;
+    }
+
+    #first-body h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    #first-body h3 {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    #first-body h4 {
+        margin: 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    /* Second Component Start */
+
+    #second {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px 50px;
+    }
+
+    #second h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #second h3 {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #second img {
+        width: 585px;
+        height: 400px;
+    }
+
+    /* Third Component Start */
+
+    #third {
+        flex-direction: column-reverse;
+        padding: 72px;
+    }
+
+    #third #third-h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #third #third-h3 {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #third #str-rel img {
+        width: 85vw;
+        height: 75vh;
+    }
+
+    #str-abs {
+        top: 553px;
+        left: 28vw;
+        width: 40vw;
+    }
+
+    #str-abs img {
+        width: 53px;
+        height: 74px;
+    }
+
+    #str-abs h1 {
+        /* margin-bottom: 12px; */
+        font-family: Ubuntu, sans-serif;
+        font-size: 13px;
+    }
+
+    /* Fourth Component start */
+
+    #fourth {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    #fourth h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #fourth h3 {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #fourth img {
+        width: 78vw;
+        height: 65vw;
+    }
+
+    /* Fifth Component start */
+
+    #fifth {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #fifth h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #fifth h3 {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #fifth img {
+        width: 73vw;
+        height: 54vw;
+    }
+
+    /* Sixth Component Start */
+
+    #sixth {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        min-height: 90vh;
+        width: 100%;
+    }
+
+    #sixth h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #s1>div {
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .margin h4 {
+        margin: 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+        width:95%;
+    }
+
+    #all h2,
+    #all h3 {
+        font-size: 2vw;
+    }
+
+    #s1 p {
+        font-size:2vw;
+        padding: 10px;
+    }
+
+    #seven {
+        width: 100%;
+        height: 80vh;
+        padding: 0;
+        margin-bottom:0;
+    }
+
+    #seven-mid {
+        width: 90%;
+    }
+
+    #seven-mid div {
+        margin: 5px 89px 5px 5px;
+        flex-wrap: wrap;
+        font-size: 13px;
+        width: 90%;
+    }
+
+    #seven .seven-margin h1 {
+        font-size: 2vw;
+    }
+
+    #seven-mid {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #netflix {
+        width: 100vw;
+        background-color: red;
+    }
+
+    #first,
+    #second,
+    #thid,
+    #fourth,
+    #fifth,
+    #sixth,
+    #seven {
+        margin-bottom: 5px;
+    }
+
+    #first,
+    #black {
+        width: 100%;
+        height: 75vh;
+    }
+
+    #header-content {
+        margin: 0 4vw;
+        padding: 5vh 0 0 0;
+    }
+
+    #logo {
+        width: 6.25rem;
+    }
+
+    #lang select {
+        width: 1rem;
+        height: 5rem;
+    }
+
+    #first-body {
+        margin: 7.5vh 0;
+
+    }
+
+    #first-body div {
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    #first-body h1 {
+        font-size: 2rem;
+        line-height: 7vw;
+        width: 99vw;
+    }
+
+    #first-body h3 {
+        font-size: 1.125rem;
+
+    }
+
+    #first-body h4 {
+        font-size: 1.125rem;
+        width: 75vw;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 6.2vw;
+    }
+
+    #email input {
+        font-size: 1rem;
+        line-height: 1.5;
+        width: 75%;
+        padding-top: 1.25rem;
+        padding-right: 1rem;
+        padding-bottom: 0.25rem;
+        padding-left: 1rem;
+        height: 16px;
+        margin: 0 auto;
+    }
+
+    #search button {
+        width: 174px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    #email label {
+        top: 14px;
+        left: 60px;
+    }
+
+    /* Second Component Start */
+
+    #second {
+        height: 75vh;
+    }
+
+    #second img {
+        width: 23rem;
+        height: 18rem;
+    }
+
+    #third {
+        height: 75vh;
+        padding: 50px;
+    }
+
+    #third #str-rel img {
+        width: 85vw;
+        height: 55vh;
+    }
+
+    #str-abs {
+        width: 50vw;
+        top: 468px;
+        left: 24vw;
+        height: 6vh;
+    }
+
+    #str-abs img {
+        width: 37px;
+        height: 53px;
+    }
+
+    /* Fourth Component start */
+
+    #fourth {
+        height: 80vh;
+    }
+
+    /* Fifth Component start */
+
+    #fifth {
+        height: 80vh;
+    }
+
+    #fifth img {
+        width: 80vw;
+        height: 60vw;
+    }
+
+    #sixth h1 {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    #search button {
+        width: 150px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    #seven-mid div {
+        margin: 5px 25px 5px 5px;
+    }
+}

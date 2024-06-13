@@ -22,6 +22,7 @@ function First() {
                 <img src={lang} alt="img" />
                 <select>
                   <option>English</option>
+                  <option>Hindi</option>
                 </select>
               </div>
               <div>
