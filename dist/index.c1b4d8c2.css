@@ -845,6 +845,16 @@ input:not(:placeholder-shown) + label {
   #seven-mid {
     font-size: 1.5vw;
   }
+
+  #sign-body {
+    height: 30rem;
+    margin: 0 auto;
+    position: static;
+  }
+
+  #sign-footer {
+    padding: 6px 0 0;
+  }
 }
 
 @media screen and (width <= 576px) {
@@ -971,6 +981,25 @@ input:not(:placeholder-shown) + label {
 
   #seven-mid div {
     margin: 5px 25px 5px 5px;
+  }
+
+  #sign-body {
+    width: 60vw;
+    padding: 10vw;
+  }
+
+  #sign-input input {
+    width: 100%;
+  }
+
+  #pass-show {
+    left: 42vw;
+  }
+}
+
+@media screen and (width <= 392px) {
+  #pass-show {
+    left: 38vw;
   }
 }
 

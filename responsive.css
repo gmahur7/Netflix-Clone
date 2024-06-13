@@ -248,6 +248,16 @@
     #seven-mid {
         font-size: 1.5vw;
     }
+
+    #sign-body {
+        margin: 0 auto;
+        position: static;
+        height: 30rem;
+    }
+
+    #sign-footer {
+        padding: 6px 0 0;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -403,4 +413,25 @@
     #seven-mid div {
         margin: 5px 25px 5px 5px;
     }
+
+    #sign-body {
+        width: 60vw;
+        padding: 10vw;
+    }
+
+    #sign-input input {
+        width: 100%;
+    }
+
+    #pass-show {
+        left: 42vw;
+    }
+
+}
+
+@media screen and (max-width:392px) {
+    #pass-show {
+        left: 38vw;
+    }
+
 }
